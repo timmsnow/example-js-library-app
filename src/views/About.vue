@@ -198,18 +198,19 @@ export default {
 }
 
 .list-group {
-  border: 1px solid black;
   margin: 5px;
-  border-radius: 10px;
   padding: 8px;
-  background-color: gray;
+  background-color: #fff;
 }
 .list-group-item {
   border: 1px solid black;
-  background: #fff;
+  border-radius: 10px;
+  background: gray;
   margin: 2px;
   padding: 5px;
   min-width: 200px;
+  color: white;
+  text-shadow: 1px 1px 3px black;
 }
 
 .col-6 {
@@ -218,10 +219,12 @@ export default {
   border-radius: 10px;
   padding: 8px;
   background-color: gray;
+  min-height: 300px;
 }
 
 .box-item {
   border: 1px solid black;
+  border-radius: 10px;
   background: #fff;
   margin: 2px;
   padding: 5px;
@@ -262,6 +265,7 @@ h3 {
   scroll-snap-type: x proximity;
   padding-bottom: calc(0.75 * var(--gutter));
   margin-bottom: calc(-0.5 * var(--gutter));
+  min-height: 340px;
 }
 
 .hs:before,
